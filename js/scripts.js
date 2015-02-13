@@ -7,5 +7,7 @@ var triangle = function(side1, side2, side3){
     return "equilateral";
   }
 
-
+  if(side1===side2 || side2===side3 || side1===side3){
+    return "isosceles";
+  }
 };
